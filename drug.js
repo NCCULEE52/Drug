@@ -102,16 +102,6 @@ document.getElementById("Question").addEventListener("click", function(){
     	'Metoprolol、Bisoprolol、Carvedilol':'CHF:↓交感代償性促心臟作功的惡性循環、↓renin (↑存活率)、小劑量開始使用',
     	'':'CHF:',
     	'':'CHF:',
-
-
-
-    	
-
-
-
-
-
-
     };
     var keyArray = Object.keys(city);
   function shuffle(o){ //v1.0
@@ -243,9 +233,6 @@ answerbank[3]=wrong3;
 console.log(answerbank);
 }
 //end of selection 4
-
-
-
 //end of seed
 keyArray = shuffle(keyArray); // shuffle it!
 
@@ -264,7 +251,8 @@ Q4.text(answerbank[3]);
 $("input:radio").attr("checked", false);
 // var Q5 = $("#finalanswer");
 // Q5.text(answer);
-
+var Q5 = $("#finalanswer");
+Q5.text(" ");
 
 });
 
