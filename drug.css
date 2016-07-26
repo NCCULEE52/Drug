@@ -1,0 +1,18 @@
+body{
+	background: #ffffff url("homebackground.png") no-repeat fixed top; 
+	background-size: cover;
+	font-family: "筑紫A丸ゴシック","微軟正黑體", sans-serif;
+}
+h1{
+	font-size: 3rem;
+	color:#ffa31a;
+
+}
+#finalanswer{
+	color:#ff0000;
+	font-weight: bold;
+}
+#bron{
+	color:#FF4136;
+	font-size: 3rem;
+}
