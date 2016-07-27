@@ -1,27 +1,18 @@
 body{
 	background: #ffffff url("homebackground.png") no-repeat fixed top; 
 	background-size: cover;
-	font-family: 'Indie Flower', cursive;
+	font-family: "筑紫A丸ゴシック","微軟正黑體", sans-serif;
 }
-.cute{
+h1{
 	font-size: 3rem;
 	color:#ffa31a;
-	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
-
 
 }
 #finalanswer{
 	color:#ff0000;
 	font-weight: bold;
-	font-size: 2.5rem;
-	background-color:gold;
 }
 #bron{
 	color:#FF4136;
 	font-size: 3rem;
-}
-#CHSH319{
-	font-size: 1.5rem;
-	font-family: 'Indie Flower', cursive;
 }
